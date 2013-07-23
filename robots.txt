@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: http://theUniC.github.io/sitemap.xml 
+Sitemap: http://theunic.github.io/sitemap.xml 

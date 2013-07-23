@@ -1,15 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
-        <loc>http://theUniC.github.io/blog/archives/</loc>
-        <lastmod>2013-07-23T20:51:43+02:00</lastmod>
+        <loc>http://theunic.github.io/blog/2013/07/23/octopress-migration/</loc>
+        <lastmod>2013-07-23T21:04:15+02:00</lastmod>
     </url>
     <url>
-        <loc>http://theUniC.github.io/</loc>
-        <lastmod>2013-07-23T20:51:43+02:00</lastmod>
+        <loc>http://theunic.github.io/blog/archives/</loc>
+        <lastmod>2013-07-23T21:04:15+02:00</lastmod>
     </url>
     <url>
-        <loc>http://theUniC.github.io/robots.txt</loc>
+        <loc>http://theunic.github.io/</loc>
+        <lastmod>2013-07-23T21:04:15+02:00</lastmod>
+    </url>
+    <url>
+        <loc>http://theunic.github.io/robots.txt</loc>
         <lastmod>2013-07-23T20:51:43+02:00</lastmod>
     </url>
 </urlset>
