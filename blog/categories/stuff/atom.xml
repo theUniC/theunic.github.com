@@ -4,7 +4,7 @@
   <title><![CDATA[Category: stuff | Christian Soronellas]]></title>
   <link href="http://theunic.github.io/blog/categories/stuff/atom.xml" rel="self"/>
   <link href="http://theunic.github.io/"/>
-  <updated>2013-07-23T23:15:46+02:00</updated>
+  <updated>2013-07-23T23:32:25+02:00</updated>
   <id>http://theunic.github.io/</id>
   <author>
     <name><![CDATA[Christian Soronellas]]></name>
@@ -30,7 +30,8 @@ crappy code, but I like the simplicity of Octopress &amp; Jekyll.</p>
 
 <ol>
 <li>Octopress is dead simple. You don&rsquo;t need complicated and bloated web interfaces. Instead is a matter of write content. As simple as that.</li>
-<li>It&rsquo;s fast than Wordpress. Remember Octopress is based on <a href="http://jekyllrb.com">Jekyll</a>, a static blog-aware web site generator, that dumps all of your posts to plain HTML.</li>
+<li>It&rsquo;s fast than Wordpress. Remember Octopress is based on <a href="http://jekyllrb.com">Jekyll</a>, a static blog-aware web site generator, that dumps all your posts to plain HTML.</li>
+<li>Levarages git. Git is used to keep track of all the changes in your content :)</li>
 <li>Plays nice with Github. Jekyll is intended to be deployed to github pages, so to publish the blog had been matter of minutes.</li>
 </ol>
 
