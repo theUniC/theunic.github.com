@@ -17,8 +17,9 @@ crappy code, but I like the simplicity of Octopress & Jekyll.
 Mainly the reasons for the change have been
 
 1. Octopress is dead simple. You don't need complicated and bloated web interfaces. Instead is a matter of write content. As simple as that.
-2. It's fast than Wordpress. Remember Octopress is based on [Jekyll](http://jekyllrb.com), a static blog-aware web site generator, that dumps all of your posts to plain HTML.
-3. Plays nice with Github. Jekyll is intended to be deployed to github pages, so to publish the blog had been matter of minutes.
+2. It's fast than Wordpress. Remember Octopress is based on [Jekyll](http://jekyllrb.com), a static blog-aware web site generator, that dumps all your posts to plain HTML.
+3. Levarages git. Git is used to keep track of all the changes in your content :)
+4. Plays nice with Github. Jekyll is intended to be deployed to github pages, so to publish the blog had been matter of minutes.
 
 ## The cons ##
 
