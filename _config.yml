@@ -4,10 +4,16 @@
 
 url: http://theunic.github.io
 title: Christian Soronellas
-subtitle: Geek by passion. Software craftsman apprentice.
+subtitle:
 author: Christian Soronellas
 simple_search: http://google.com/search
-description:
+description: >
+    <p style="text-align:justify">Hi all! My name is Christian Soronellas. I'm a passionate web developer and a software
+    craftsman apprentice currently working at <a href="http://emagister.com">Emagister</a> 
+    looking forward to learn new things every day. I'm a <strong>PHP 5.3 Zend Certified Engineer</strong>,
+    <strong>Zend Framework Certified Engineer</strong> and a <strong>SensioLabs Certified Symfony Developer</strong>.
+    I'm also an agile advocate interested in discover new languages and technologies like functional programming (clojure, 
+    scala, erlang), javascript, ruby, domain-driven design, test-driven development (TDD), behaviour-driven development (BDD) and so on.</p>
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
@@ -19,7 +25,7 @@ date_format: "ordinal"
 subscribe_rss: /atom.xml
 subscribe_email:
 # RSS feeds can list your email address if you like
-email:
+email: theunic@gmail.com
 
 # ----------------------- #
 #    Jekyll & Plugins     #
@@ -27,7 +33,7 @@ email:
 
 # If publishing to a subdirectory as in http://site.com/project set 'root: /project'
 root: /
-permalink: /blog/:year/:month/:day/:title/
+permalink: /:year/:month/:day/:title.html
 source: source
 destination: public
 plugins: plugins
@@ -63,7 +69,7 @@ default_asides: [asides/recent_posts.html, asides/github.html, asides/delicious.
 # ----------------------- #
 
 # Github repositories
-github_user: 
+github_user: theUniC
 github_repo_count: 0
 github_show_profile_link: true
 github_skip_forks: true
@@ -90,11 +96,11 @@ delicious_user:
 delicious_count: 3
 
 # Disqus Comments
-disqus_short_name:
-disqus_show_comment_count: false
+disqus_short_name: theunic
+disqus_show_comment_count: true
 
 # Google Analytics
-google_analytics_tracking_id:
+google_analytics_tracking_id: UA-42665670-1
 
 # Facebook Like
 facebook_like: false
