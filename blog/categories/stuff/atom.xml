@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Christian Soronellas]]></title>
-  <link href="http://theunic.github.io/atom.xml" rel="self"/>
+  <title><![CDATA[Category: stuff | Christian Soronellas]]></title>
+  <link href="http://theunic.github.io/blog/categories/stuff/atom.xml" rel="self"/>
   <link href="http://theunic.github.io/"/>
   <updated>2013-07-23T23:15:46+02:00</updated>
   <id>http://theunic.github.io/</id>
