@@ -23,7 +23,7 @@ Mainly the reasons for the change have been
 
 ## The cons ##
 
-Must admit. Octopress / Jekyll it isn't the silver bullet.
+Must admit. Octopress / Jekyll isn't the silver bullet.
 
 1. It's hard to get started. I'm a ruby newby! :(
 2. Don't use Octopress if your main concern it's not only to write content.
