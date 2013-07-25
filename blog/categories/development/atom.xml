@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: development | Christian Soronellas]]></title>
+  <link href="http://theunic.github.io/blog/categories/development/atom.xml" rel="self"/>
+  <link href="http://theunic.github.io/"/>
+  <updated>2013-07-25T23:42:17+02:00</updated>
+  <id>http://theunic.github.io/</id>
+  <author>
+    <name><![CDATA[Christian Soronellas]]></name>
+    <email><![CDATA[theunic@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Why you shoud not be using annotations]]></title>
+    <link href="http://theunic.github.io/2013/07/25/why-you-should-not-be-using-annotations.html"/>
+    <updated>2013-07-25T21:03:00+02:00</updated>
+    <id>http://theunic.github.io/2013/07/25/why-you-should-not-be-using-annotations</id>
+    <content type="html"><![CDATA[<p>In fact. <strong>Annotations</strong> are evil. If you&rsquo;re using it, you&rsquo;re doing it wrong. But why? Why are they so evil? Next, I&rsquo;m going to present a real-world use-case in which the use of annotations
+lead to a serious coupling situation.</p>
+
+<h2>The use-case</h2>
+
+<p>Supose you have an application in which you want to integarate an ORM with annotated support to define your domain objects, in order to keep under control the growing complex business logic. You
+look at the resulting code, and &hellip; Wow! Have you ever seen such a clean code?</p>
+
+<p>```php
+&lt;?php</p>
+
+<p>namespace Acme\Shop\Entity;</p>
+
+<p>use Doctrine\ORM\Mapping as ORM;</p>
+
+<p>/<strong>
+ * @ORM\Entity
+ */
+class Product
+{
+  /</strong>
+   * @ORM\Id
+   */
+  private $id;</p>
+
+<p>  /<em>*
+   * @ORM\Column(type=&ldquo;string&rdquo;)
+   </em>/
+  private $title;</p>
+
+<p>  /<em>*
+   * @ORM\Column(type=&ldquo;decimal&rdquo;)
+   </em>/
+  private $price;
+}</p>
+
+<p>```</p>
+
+<h2>Coupling, coupling and more coupling</h2>
+
+<p>This piece of code flaws of a serious coupling problem. <strong>YOU ARE ACTUALLY COUPLING YOUR DOMAIN OBJECT TO ITS OWN CONFIGURATION</strong>. A statement of <strong>domain-driven design</strong> that I
+really like is that &ldquo;<em>Separating the domain layer from the infrastructure and user interface layers allows much cleaner design of each layer. Isolated layers are much less expensive
+to mantain, because they tend to evolve at different rates and respond to different needs.</em>&rdquo;</p>
+
+<p>But, how could it be? It&rsquo;s only a plain PHP class with no defined behaviour and a few comments, it can be changed whenever it&rsquo;s needed.</p>
+
+<p>OK! Supose that there&rsquo;s a need to reuse this entity in another persistence engine. How could it be done with annotations? It cannot be done, because I cannot define the same annotation
+twice without overriding the previous one!</p>
+
+<p>The simplest example could be different table names between engines that share common entities. How could it be mapped without breaking each other? Or the use of sequences in Oracle/Postgres
+&hellip; So, indeed, this entity is coupled with the persistence engine.</p>
+
+<p>The solution would be to move all the persistence mapping (aka entity metadata) to another format like YAML, XML or PHP (no annotated code). Doing it this way several mapping formats
+could be used and share common entities between each of them.</p>
+
+<h2>And with couping comes the rest &hellip;</h2>
+
+<p>In case we need to perform unit testing or to do some kind of runtime substitution, the entity is absolutely contextualized and the dependencies cannot be changed at runtime. It&rsquo;s actually
+tied to an implementation. So there is no chance to substitute any of the dependencies.</p>
+
+<h2>Conclusion</h2>
+
+<p>At a first glance annotations could seem a big chance to keep your code simple and clean. But It actually leads to a coupling problem and serious design flaws. If you don&rsquo;t mind about that
+coupling level, then probably annotations are for you.</p>
+]]></content>
+  </entry>
+  
+</feed>
