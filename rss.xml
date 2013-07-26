@@ -8,8 +8,8 @@
  
     
     <item>
-      <title>Why you shoud not be using annotations</title>
-      <description><p>In fact. <strong>Annotations</strong> are evil. If you&rsquo;re using it, you&rsquo;re doing it wrong. But why? Why are they so evil? Next, I&rsquo;m going to present a real-world use-case in which the use of annotations
+      <title><![CDATA[Why you shoud not be using annotations]]></title>
+      <description><![CDATA[<p>In fact. <strong>Annotations</strong> are evil. If you&rsquo;re using it, you&rsquo;re doing it wrong. But why? Why are they so evil? Next, I&rsquo;m going to present a real-world use-case in which the use of annotations
 lead to a serious coupling situation.</p>
 
 <h2>The use-case</h2>
@@ -98,15 +98,15 @@ tied to an implementation. So there is no chance to substitute any of the depend
 
 <p>At a first glance annotations could seem a big chance to keep your code simple and clean. But It actually leads to a coupling problem and serious design flaws. If you don&rsquo;t mind about that
 coupling level, then probably annotations are for you.</p>
-</description>
+]]></description>
       <link>http://theunic.github.io/2013/07/25/why-you-should-not-be-using-annotations.html</link>
       <pubDate>2013-07-25T21:03:00+02:00</pubDate>
       <guid>http://theunic.github.io/2013/07/25/why-you-should-not-be-using-annotations</guid>
     </item>
     
     <item>
-      <title>My new and shiny personal blog!</title>
-      <description><h2>Introducing Octopress</h2>
+      <title><![CDATA[My new and shiny personal blog!]]></title>
+      <description><![CDATA[<h2>Introducing Octopress</h2>
 
 <p>Today I&rsquo;m reopening my personal blog. And it comes with a big change. I&rsquo;ve migrated from Wordpress to Octopress. Mainly for the content-orientation aspect of Octopress.
 I&rsquo;m very tired to fight against the so cool web interface of Wordpress for managing posts and all the stuff. I think Wordpress it&rsquo;s a great product besides the internal
@@ -133,7 +133,7 @@ crappy code, but I like the simplicity of Octopress &amp; Jekyll.</p>
 <li>Don&rsquo;t use Octopress if your main concern it&rsquo;s not only to write content.</li>
 </ol>
 
-</description>
+]]></description>
       <link>http://theunic.github.io/2013/07/23/my-new-and-shiny-personal-blog.html</link>
       <pubDate>2013-07-23T20:55:00+02:00</pubDate>
       <guid>http://theunic.github.io/2013/07/23/my-new-and-shiny-personal-blog</guid>
