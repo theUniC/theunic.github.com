@@ -11,8 +11,8 @@ layout: nil
  
     {% for post in site.posts limit: 20 %}
     <item>
-      <title>{{ post.title | xml_escape }}</title>
-      <description>{{ post.content | expand_urls: site.url | cdata_escape }}</description>
+      <title><![CDATA[{{ post.title | xml_escape }}]]></title>
+      <description><![CDATA[{{ post.content | expand_urls: site.url | cdata_escape }}]]></description>
       <link>{{ site.url }}{{ post.url }}</link>
       <pubDate>{{ post.date | date_to_xmlschema }}</pubDate>
       <guid>{{ site.url }}{{ post.id }}</guid>
