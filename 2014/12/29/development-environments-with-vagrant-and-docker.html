@@ -490,7 +490,7 @@ Next we give the name <code>app</code> to the image, add a data volume with <cod
 tell Vagrant that this container won&rsquo;t be permanently running with <code>docker.remains_running = false</code>. Note that the
 data-volumes, have a direct correspondence with the synced folders of the <code>default</code> machine.</p>
 
-<p>Additionally, Vagrant needs to know which VM should spawn thorough <code>docker.vagrant_vagrantfile = __FILE__</code>. With
+<p>Additionally, Vagrant needs to know which VM should spawn through <code>docker.vagrant_vagrantfile = __FILE__</code>. With
 this we are telling Vagrant that this container will be running on the <code>default</code> machine in the <strong>current</strong>
 Vagrantfile. If you&rsquo;re in the case that you don&rsquo;t need an intermediate VM to create Docker container you should add the
 line <code>docker.force_host_vm = false</code>. Now we only need to define the container configuration for the <code>nginx</code> and
