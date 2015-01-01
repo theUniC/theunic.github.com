@@ -4,7 +4,7 @@
     <atom:link rel="hub" href="http://pubsubhubbub.appspot.com" xmlns:atom="http://www.w3.org/2005/Atom"/>
     <title>Christian Soronellas</title>
     <generator>Octopress</generator>
-    <link>http://theunic.github.io</link>
+    <link>http://theUniC.github.io</link>
  
     
     <item>
@@ -535,9 +535,9 @@ needs. With Docker development environments will bootstrap a lot faster once the
 <p>To conclude with the entry I have created a Github repo with an example application that runs its development
 environment with Vagrant and Docker. Check it out at <a href="https://github.com/theUniC/vagrant-docker-example">https://github.com/theUniC/vagrant-docker-example</a></p>
 ]]></description>
-      <link>http://theunic.github.io/2014/12/29/development-environments-with-vagrant-and-docker.html</link>
+      <link>http://theUniC.github.io/2014/12/29/development-environments-with-vagrant-and-docker.html</link>
       <pubDate>2014-12-29T22:57:00+01:00</pubDate>
-      <guid>http://theunic.github.io/2014/12/29/development-environments-with-vagrant-and-docker</guid>
+      <guid>http://theUniC.github.io/2014/12/29/development-environments-with-vagrant-and-docker</guid>
     </item>
     
     <item>
@@ -632,9 +632,9 @@ tied to an implementation. So there is no chance to substitute any of the depend
 <p>At a first glance annotations could seem a big chance to keep your code simple and clean. But It actually leads to a coupling problem and serious design flaws. If you don&rsquo;t mind about that
 coupling level, then probably annotations are for you.</p>
 ]]></description>
-      <link>http://theunic.github.io/2013/07/25/why-you-should-not-be-using-annotations.html</link>
+      <link>http://theUniC.github.io/2013/07/25/why-you-should-not-be-using-annotations.html</link>
       <pubDate>2013-07-25T21:03:00+02:00</pubDate>
-      <guid>http://theunic.github.io/2013/07/25/why-you-should-not-be-using-annotations</guid>
+      <guid>http://theUniC.github.io/2013/07/25/why-you-should-not-be-using-annotations</guid>
     </item>
     
     <item>
@@ -667,9 +667,9 @@ crappy code, but I like the simplicity of Octopress &amp; Jekyll.</p>
 </ol>
 
 ]]></description>
-      <link>http://theunic.github.io/2013/07/23/my-new-and-shiny-personal-blog.html</link>
+      <link>http://theUniC.github.io/2013/07/23/my-new-and-shiny-personal-blog.html</link>
       <pubDate>2013-07-23T20:55:00+02:00</pubDate>
-      <guid>http://theunic.github.io/2013/07/23/my-new-and-shiny-personal-blog</guid>
+      <guid>http://theUniC.github.io/2013/07/23/my-new-and-shiny-personal-blog</guid>
     </item>
     
   </channel>

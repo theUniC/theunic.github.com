@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Christian Soronellas]]></title>
-  <link href="http://theunic.github.io/atom.xml" rel="self"/>
-  <link href="http://theunic.github.io/"/>
-  <updated>2015-01-01T18:06:49+01:00</updated>
-  <id>http://theunic.github.io/</id>
+  <link href="http://theUniC.github.io/atom.xml" rel="self"/>
+  <link href="http://theUniC.github.io/"/>
+  <updated>2015-01-01T18:17:17+01:00</updated>
+  <id>http://theUniC.github.io/</id>
   <author>
     <name><![CDATA[Christian Soronellas]]></name>
     <email><![CDATA[theunic@gmail.com]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Development Environments With Vagrant and Docker]]></title>
-    <link href="http://theunic.github.io/2014/12/29/development-environments-with-vagrant-and-docker.html"/>
+    <link href="http://theUniC.github.io/2014/12/29/development-environments-with-vagrant-and-docker.html"/>
     <updated>2014-12-29T22:57:00+01:00</updated>
-    <id>http://theunic.github.io/2014/12/29/development-environments-with-vagrant-and-docker</id>
+    <id>http://theUniC.github.io/2014/12/29/development-environments-with-vagrant-and-docker</id>
     <content type="html"><![CDATA[<h2>Facing the problem.</h2>
 
 <h3>Repeatable and maintainable development environments</h3>
@@ -548,9 +548,9 @@ environment with Vagrant and Docker. Check it out at <a href="https://github.com
   
   <entry>
     <title type="html"><![CDATA[Why You Shoud Not Be Using Annotations]]></title>
-    <link href="http://theunic.github.io/2013/07/25/why-you-should-not-be-using-annotations.html"/>
+    <link href="http://theUniC.github.io/2013/07/25/why-you-should-not-be-using-annotations.html"/>
     <updated>2013-07-25T21:03:00+02:00</updated>
-    <id>http://theunic.github.io/2013/07/25/why-you-should-not-be-using-annotations</id>
+    <id>http://theUniC.github.io/2013/07/25/why-you-should-not-be-using-annotations</id>
     <content type="html"><![CDATA[<p>In fact. <strong>Annotations</strong> are evil. If you&rsquo;re using it, you&rsquo;re doing it wrong. But why? Why are they so evil? Next, I&rsquo;m going to present a real-world use-case in which the use of annotations
 lead to a serious coupling situation.</p>
 
@@ -645,9 +645,9 @@ coupling level, then probably annotations are for you.</p>
   
   <entry>
     <title type="html"><![CDATA[My New and Shiny Personal Blog!]]></title>
-    <link href="http://theunic.github.io/2013/07/23/my-new-and-shiny-personal-blog.html"/>
+    <link href="http://theUniC.github.io/2013/07/23/my-new-and-shiny-personal-blog.html"/>
     <updated>2013-07-23T20:55:00+02:00</updated>
-    <id>http://theunic.github.io/2013/07/23/my-new-and-shiny-personal-blog</id>
+    <id>http://theUniC.github.io/2013/07/23/my-new-and-shiny-personal-blog</id>
     <content type="html"><![CDATA[<h2>Introducing Octopress</h2>
 
 <p>Today I&rsquo;m reopening my personal blog. And it comes with a big change. I&rsquo;ve migrated from Wordpress to Octopress. Mainly for the content-orientation aspect of Octopress.

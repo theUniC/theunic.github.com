@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Stuff | Christian Soronellas]]></title>
-  <link href="http://theunic.github.io/blog/categories/stuff/atom.xml" rel="self"/>
-  <link href="http://theunic.github.io/"/>
-  <updated>2015-01-01T18:06:49+01:00</updated>
-  <id>http://theunic.github.io/</id>
+  <link href="http://theUniC.github.io/blog/categories/stuff/atom.xml" rel="self"/>
+  <link href="http://theUniC.github.io/"/>
+  <updated>2015-01-01T18:17:17+01:00</updated>
+  <id>http://theUniC.github.io/</id>
   <author>
     <name><![CDATA[Christian Soronellas]]></name>
     <email><![CDATA[theunic@gmail.com]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[My New and Shiny Personal Blog!]]></title>
-    <link href="http://theunic.github.io/2013/07/23/my-new-and-shiny-personal-blog.html"/>
+    <link href="http://theUniC.github.io/2013/07/23/my-new-and-shiny-personal-blog.html"/>
     <updated>2013-07-23T20:55:00+02:00</updated>
-    <id>http://theunic.github.io/2013/07/23/my-new-and-shiny-personal-blog</id>
+    <id>http://theUniC.github.io/2013/07/23/my-new-and-shiny-personal-blog</id>
     <content type="html"><![CDATA[<h2>Introducing Octopress</h2>
 
 <p>Today I&rsquo;m reopening my personal blog. And it comes with a big change. I&rsquo;ve migrated from Wordpress to Octopress. Mainly for the content-orientation aspect of Octopress.

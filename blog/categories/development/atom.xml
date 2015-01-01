@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Development | Christian Soronellas]]></title>
-  <link href="http://theunic.github.io/blog/categories/development/atom.xml" rel="self"/>
-  <link href="http://theunic.github.io/"/>
-  <updated>2015-01-01T18:06:49+01:00</updated>
-  <id>http://theunic.github.io/</id>
+  <link href="http://theUniC.github.io/blog/categories/development/atom.xml" rel="self"/>
+  <link href="http://theUniC.github.io/"/>
+  <updated>2015-01-01T18:17:17+01:00</updated>
+  <id>http://theUniC.github.io/</id>
   <author>
     <name><![CDATA[Christian Soronellas]]></name>
     <email><![CDATA[theunic@gmail.com]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Why You Shoud Not Be Using Annotations]]></title>
-    <link href="http://theunic.github.io/2013/07/25/why-you-should-not-be-using-annotations.html"/>
+    <link href="http://theUniC.github.io/2013/07/25/why-you-should-not-be-using-annotations.html"/>
     <updated>2013-07-25T21:03:00+02:00</updated>
-    <id>http://theunic.github.io/2013/07/25/why-you-should-not-be-using-annotations</id>
+    <id>http://theUniC.github.io/2013/07/25/why-you-should-not-be-using-annotations</id>
     <content type="html"><![CDATA[<p>In fact. <strong>Annotations</strong> are evil. If you&rsquo;re using it, you&rsquo;re doing it wrong. But why? Why are they so evil? Next, I&rsquo;m going to present a real-world use-case in which the use of annotations
 lead to a serious coupling situation.</p>
 
