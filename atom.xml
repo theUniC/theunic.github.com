@@ -4,11 +4,7 @@
   <title><![CDATA[Christian Soronellas]]></title>
   <link href="http://theunic.github.io/atom.xml" rel="self"/>
   <link href="http://theunic.github.io/"/>
-<<<<<<< HEAD
-  <updated>2013-07-26T07:17:52+02:00</updated>
-=======
   <updated>2015-01-01T18:06:49+01:00</updated>
->>>>>>> Site updated at 2015-01-01 17:13:46 UTC
   <id>http://theunic.github.io/</id>
   <author>
     <name><![CDATA[Christian Soronellas]]></name>
@@ -18,9 +14,6 @@
 
   
   <entry>
-<<<<<<< HEAD
-    <title type="html"><![CDATA[Why you shoud not be using annotations]]></title>
-=======
     <title type="html"><![CDATA[Development Environments With Vagrant and Docker]]></title>
     <link href="http://theunic.github.io/2014/12/29/development-environments-with-vagrant-and-docker.html"/>
     <updated>2014-12-29T22:57:00+01:00</updated>
@@ -555,7 +548,6 @@ environment with Vagrant and Docker. Check it out at <a href="https://github.com
   
   <entry>
     <title type="html"><![CDATA[Why You Shoud Not Be Using Annotations]]></title>
->>>>>>> Site updated at 2015-01-01 17:13:46 UTC
     <link href="http://theunic.github.io/2013/07/25/why-you-should-not-be-using-annotations.html"/>
     <updated>2013-07-25T21:03:00+02:00</updated>
     <id>http://theunic.github.io/2013/07/25/why-you-should-not-be-using-annotations</id>
@@ -652,11 +644,7 @@ coupling level, then probably annotations are for you.</p>
   </entry>
   
   <entry>
-<<<<<<< HEAD
-    <title type="html"><![CDATA[My new and shiny personal blog!]]></title>
-=======
     <title type="html"><![CDATA[My New and Shiny Personal Blog!]]></title>
->>>>>>> Site updated at 2015-01-01 17:13:46 UTC
     <link href="http://theunic.github.io/2013/07/23/my-new-and-shiny-personal-blog.html"/>
     <updated>2013-07-23T20:55:00+02:00</updated>
     <id>http://theunic.github.io/2013/07/23/my-new-and-shiny-personal-blog</id>

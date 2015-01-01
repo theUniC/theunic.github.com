@@ -8,8 +8,6 @@
  
     
     <item>
-<<<<<<< HEAD
-=======
       <title><![CDATA[Development environments with Vagrant and Docker]]></title>
       <description><![CDATA[<h2>Facing the problem.</h2>
 
@@ -543,7 +541,6 @@ environment with Vagrant and Docker. Check it out at <a href="https://github.com
     </item>
     
     <item>
->>>>>>> Site updated at 2015-01-01 17:13:46 UTC
       <title><![CDATA[Why you shoud not be using annotations]]></title>
       <description><![CDATA[<p>In fact. <strong>Annotations</strong> are evil. If you&rsquo;re using it, you&rsquo;re doing it wrong. But why? Why are they so evil? Next, I&rsquo;m going to present a real-world use-case in which the use of annotations
 lead to a serious coupling situation.</p>
