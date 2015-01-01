@@ -1,31 +1,146 @@
-<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-
-  <title><![CDATA[Christian Soronellas]]></title>
-  <link href="http://theunic.github.io/atom.xml" rel="self"/>
-  <link href="http://theunic.github.io/"/>
-<<<<<<< HEAD
-  <updated>2013-07-26T07:17:52+02:00</updated>
-=======
-  <updated>2015-01-01T18:06:49+01:00</updated>
->>>>>>> Site updated at 2015-01-01 17:13:46 UTC
-  <id>http://theunic.github.io/</id>
-  <author>
-    <name><![CDATA[Christian Soronellas]]></name>
-    <email><![CDATA[theunic@gmail.com]]></email>
-  </author>
-  <generator uri="http://octopress.org/">Octopress</generator>
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Development Environments With Vagrant and Docker - Christian Soronellas</title>
+  <meta name="author" content="Christian Soronellas">
 
   
-  <entry>
-<<<<<<< HEAD
-    <title type="html"><![CDATA[Why you shoud not be using annotations]]></title>
-=======
-    <title type="html"><![CDATA[Development Environments With Vagrant and Docker]]></title>
-    <link href="http://theunic.github.io/2014/12/29/development-environments-with-vagrant-and-docker.html"/>
-    <updated>2014-12-29T22:57:00+01:00</updated>
-    <id>http://theunic.github.io/2014/12/29/development-environments-with-vagrant-and-docker</id>
-    <content type="html"><![CDATA[<h2>Facing the problem.</h2>
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://theunic.github.io/2014/12/29/development-environments-with-vagrant-and-docker.html">
+  <link href="/favicon.png" type="image/png" rel="icon">
+  <link href="/atom.xml" rel="alternate" title="Christian Soronellas" type="application/atom+xml">
+
+  <!-- http://opengraphprotocol.org/ -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="http://theunic.github.io/2014/12/29/development-environments-with-vagrant-and-docker.html">
+  <meta property="og:title" content="Development Environments With Vagrant and Docker - Christian Soronellas">
+  
+
+  <script src="/javascripts/libs/jquery/jquery-2.0.3.min.js"></script>
+
+<link href="/assets/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="/assets/bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet" type="text/css">
+
+
+  
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+
+  
+   <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-42665670-1', 'auto');
+    ga('send', 'pageview');
+
+  </script>
+
+
+</head>
+
+  <body   >
+    <a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
+    <div id="wrap">
+      <header role="banner">
+        <nav class="navbar navbar-default" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">Christian Soronellas</a>
+        </div>
+
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li class="active">
+                    <a rel="index" href="/">Blog</a>
+                </li>
+                <li >
+                    <a href="/blog/archives">Archives</a>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                
+                    <li>
+                        <form class="search navbar-form navbar-right" action="http://google.com/search" method="GET">
+                            <input type="hidden" name="q" value="site:theunic.github.io">
+                            <div class="form-group">
+                                <input class="form-control" type="text" name="q" placeholder="Search">
+                            </div>
+                        </form>
+                    </li>
+                
+                <li>
+                    <a class="subscribe-rss" href="/atom.xml" title="subscribe via RSS">
+                        <span class="visible-xs">RSS</span>
+                        <img class="hidden-xs" src="/images/rss.png" alt="RSS">
+                    </a>
+                </li>
+                
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+      </header>
+      <div id="main" role="main" class="container">
+        <div id="content">
+          <div class="row">
+  <div class="page-content col-md-9" itemscope itemtype="http://schema.org/Blog">
+    <meta itemprop="name" content="Christian Soronellas" />
+    <meta itemprop="description" content="My name is Christian Soronellas. I'm a passionate web developer and a software craftsman apprentice currently working at Atrapalo looking forward to learn new things every day. I'm a PHP 5.3 Zend Certified Engineer, Zend Framework Certified Engineer and a SensioLabs Certified Symfony Developer. I'm also an agile advocate interested in discover new languages and technologies like functional programming (clojure, scala, erlang), javascript, ruby, domain-driven design, test-driven development (TDD), behaviour-driven development (BDD) and so on.
+" />
+    <meta itemprop="url" content="http://theunic.github.io" />
+    <article class="hentry" role="article" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+      
+  <header class="page-header">
+    
+      <p class="meta text-muted text-uppercase">
+        
+
+
+
+
+
+
+
+
+
+
+
+
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2014-12-29T22:57:00+01:00"  data-updated="true" itemprop="datePublished dateCreated">29/12/2014</time>
+        
+           | <a href="#disqus_thread" itemprop="discussionUrl"
+             data-disqus-identifier="http://theunic.github.io">Comments</a>
+        
+      </p>
+    
+    
+    <h1 class="entry-title" itemprop="name headline">
+        Development Environments With Vagrant and Docker
+        
+    </h1>
+    
+  </header>
+
+
+<div class="entry-content clearfix" itemprop="articleBody description"><h2>Facing the problem.</h2>
 
 <h3>Repeatable and maintainable development environments</h3>
 
@@ -550,144 +665,177 @@ needs. With Docker development environments will bootstrap a lot faster once the
 
 <p>To conclude with the entry I have created a Github repo with an example application that runs its development
 environment with Vagrant and Docker. Check it out at <a href="https://github.com/theUniC/vagrant-docker-example">https://github.com/theUniC/vagrant-docker-example</a></p>
-]]></content>
-  </entry>
+</div>
+
+
+      <footer>
+        <p class="meta text-muted">
+          
   
-  <entry>
-    <title type="html"><![CDATA[Why You Shoud Not Be Using Annotations]]></title>
->>>>>>> Site updated at 2015-01-01 17:13:46 UTC
-    <link href="http://theunic.github.io/2013/07/25/why-you-should-not-be-using-annotations.html"/>
-    <updated>2013-07-25T21:03:00+02:00</updated>
-    <id>http://theunic.github.io/2013/07/25/why-you-should-not-be-using-annotations</id>
-    <content type="html"><![CDATA[<p>In fact. <strong>Annotations</strong> are evil. If you&rsquo;re using it, you&rsquo;re doing it wrong. But why? Why are they so evil? Next, I&rsquo;m going to present a real-world use-case in which the use of annotations
-lead to a serious coupling situation.</p>
 
-<h2>The use-case</h2>
+<span class="glyphicon glyphicon-user"></span> <span class="byline author vcard" itemprop="author" itemscope itemtype="http://schema.org/Person">Posted by <span class="fn" itemprop="name">Christian Soronellas</span></span>
 
-<p>Supose you have an application in which you want to integarate an ORM with annotated support to define your domain objects, in order to keep under control the growing complex business logic. You
-look at the resulting code, and &hellip; Wow! Have you ever seen such a clean code?</p>
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-<span class='line-number'>8</span>
-<span class='line-number'>9</span>
-<span class='line-number'>10</span>
-<span class='line-number'>11</span>
-<span class='line-number'>12</span>
-<span class='line-number'>13</span>
-<span class='line-number'>14</span>
-<span class='line-number'>15</span>
-<span class='line-number'>16</span>
-<span class='line-number'>17</span>
-<span class='line-number'>18</span>
-<span class='line-number'>19</span>
-<span class='line-number'>20</span>
-<span class='line-number'>21</span>
-<span class='line-number'>22</span>
-<span class='line-number'>23</span>
-<span class='line-number'>24</span>
-<span class='line-number'>25</span>
-<span class='line-number'>26</span>
-</pre></td><td class='code'><pre><code class='php'><span class='line'><span class="o">&lt;?</span><span class="nx">php</span>
-</span><span class='line'>
-</span><span class='line'><span class="k">namespace</span> <span class="nx">Acme\Shop\Entity</span><span class="p">;</span>
-</span><span class='line'>
-</span><span class='line'><span class="k">use</span> <span class="nx">Doctrine\ORM\Mapping</span> <span class="k">as</span> <span class="nx">ORM</span><span class="p">;</span>
-</span><span class='line'>
-</span><span class='line'><span class="sd">/**</span>
-</span><span class='line'><span class="sd"> * @ORM\Entity</span>
-</span><span class='line'><span class="sd"> */</span>
-</span><span class='line'><span class="k">class</span> <span class="nc">Product</span>
-</span><span class='line'><span class="p">{</span>
-</span><span class='line'>  <span class="sd">/**</span>
-</span><span class='line'><span class="sd">   * @ORM\Id</span>
-</span><span class='line'><span class="sd">   */</span>
-</span><span class='line'>  <span class="k">private</span> <span class="nv">$id</span><span class="p">;</span>
-</span><span class='line'>
-</span><span class='line'>  <span class="sd">/**</span>
-</span><span class='line'><span class="sd">   * @ORM\Column(type=&quot;string&quot;)</span>
-</span><span class='line'><span class="sd">   */</span>
-</span><span class='line'>  <span class="k">private</span> <span class="nv">$title</span><span class="p">;</span>
-</span><span class='line'>
-</span><span class='line'>  <span class="sd">/**</span>
-</span><span class='line'><span class="sd">   * @ORM\Column(type=&quot;decimal&quot;)</span>
-</span><span class='line'><span class="sd">   */</span>
-</span><span class='line'>  <span class="k">private</span> <span class="nv">$price</span><span class="p">;</span>
-</span><span class='line'><span class="p">}</span>
-</span></code></pre></td></tr></table></div></figure>
+          
 
 
-<h2>Coupling, coupling and more coupling</h2>
 
-<p>This piece of code flaws of a serious coupling problem. <strong>YOU ARE ACTUALLY COUPLING YOUR DOMAIN OBJECT TO ITS OWN CONFIGURATION</strong>. A statement of <strong>domain-driven design</strong> that I
-really like is that &ldquo;<em>Separating the domain layer from the infrastructure and user interface layers allows much cleaner design of each layer. Isolated layers are much less expensive
-to mantain, because they tend to evolve at different rates and respond to different needs.</em>&rdquo;</p>
 
-<p>But, how could it be? It&rsquo;s only a plain PHP class with no defined behaviour and a few comments, it can be changed whenever it&rsquo;s needed.</p>
 
-<p>OK! Supose that there&rsquo;s a need to reuse this entity in another persistence engine. How could it be done with annotations? It cannot be done, because I cannot define the same annotation
-twice without overriding the previous one!</p>
 
-<p>The simplest example could be different table names between engines that share common entities. How could it be mapped without breaking each other? Or the use of sequences in Oracle/Postgres
-&hellip; So, indeed, this entity is coupled with the persistence engine.</p>
 
-<p>The solution would be to move all the persistence mapping (aka entity metadata) to another format like YAML, XML or PHP (no annotated code). Doing it this way several mapping formats
-could be used and share common entities between each of them.</p>
 
-<h2>And with couping comes the rest &hellip;</h2>
 
-<p>In case we need to perform unit testing or to do some kind of runtime substitution, the entity is absolutely contextualized and the dependencies cannot be changed at runtime. It&rsquo;s actually
-tied to an implementation. So there is no chance to substitute any of the dependencies.</p>
 
-<h2>Conclusion</h2>
 
-<p>At a first glance annotations could seem a big chance to keep your code simple and clean. But It actually leads to a coupling problem and serious design flaws. If you don&rsquo;t mind about that
-coupling level, then probably annotations are for you.</p>
-]]></content>
-  </entry>
+
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2014-12-29T22:57:00+01:00"  data-updated="true" itemprop="datePublished dateCreated">29/12/2014</time>
+          
+
+
+        </p>
+        
+          <div class="sharing">
   
-  <entry>
-<<<<<<< HEAD
-    <title type="html"><![CDATA[My new and shiny personal blog!]]></title>
-=======
-    <title type="html"><![CDATA[My New and Shiny Personal Blog!]]></title>
->>>>>>> Site updated at 2015-01-01 17:13:46 UTC
-    <link href="http://theunic.github.io/2013/07/23/my-new-and-shiny-personal-blog.html"/>
-    <updated>2013-07-23T20:55:00+02:00</updated>
-    <id>http://theunic.github.io/2013/07/23/my-new-and-shiny-personal-blog</id>
-    <content type="html"><![CDATA[<h2>Introducing Octopress</h2>
-
-<p>Today I&rsquo;m reopening my personal blog. And it comes with a big change. I&rsquo;ve migrated from Wordpress to Octopress. Mainly for the content-orientation aspect of Octopress.
-I&rsquo;m very tired to fight against the so cool web interface of Wordpress for managing posts and all the stuff. I think Wordpress it&rsquo;s a great product besides the internal
-crappy code, but I like the simplicity of Octopress &amp; Jekyll.</p>
-
-<h2>The pros</h2>
-
-<p>Mainly the reasons for the change have been</p>
-
-<ol>
-<li>Octopress is dead simple. You don&rsquo;t need complicated and bloated web interfaces. Instead is a matter of write content. As simple as that.</li>
-<li>It&rsquo;s fast than Wordpress. Remember Octopress is based on <a href="http://jekyllrb.com">Jekyll</a>, a static blog-aware web site generator, that dumps all your posts to plain HTML.</li>
-<li>Levarages git. Git is used to keep track of all the changes in your content :)</li>
-<li>Plays nice with Github. Jekyll is intended to be deployed to github pages, so to publish the blog had been matter of minutes.</li>
-</ol>
-
-
-<h2>The cons</h2>
-
-<p>Must admit. Octopress / Jekyll isn&rsquo;t the silver bullet.</p>
-
-<ol>
-<li>It&rsquo;s hard to get started. I&rsquo;m a ruby newby! :(</li>
-<li>Don&rsquo;t use Octopress if your main concern it&rsquo;s not only to write content.</li>
-</ol>
-
-]]></content>
-  </entry>
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://theunic.github.io/2014/12/29/development-environments-with-vagrant-and-docker.html" data-via="theUniC" data-counturl="http://theunic.github.io/2014/12/29/development-environments-with-vagrant-and-docker.html" >Tweet</a>
   
-</feed>
+  
+  
+</div>
+
+        
+        
+          <ul class="meta text-muted pager">
+            
+            <li class="previous"><a href="/2013/07/25/why-you-should-not-be-using-annotations.html" title="Previous Post: Why you shoud not be using annotations">&laquo; Why you shoud not be using annotations</a></li>
+            
+            
+          </ul>
+        
+      </footer>
+    </article>
+    
+      <section>
+        <h2>Comments</h2>
+        <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+      </section>
+    
+  </div>
+
+  
+  <aside class="sidebar col-md-3">
+    
+      <section class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">Recent Posts</h3>
+  </div>
+  
+  <div id="recent_posts" class="list-group">
+    
+    <a class="list-group-item active" href="/2014/12/29/development-environments-with-vagrant-and-docker.html">Development Environments With Vagrant and Docker</a>
+    
+    <a class="list-group-item " href="/2013/07/25/why-you-should-not-be-using-annotations.html">Why You Shoud Not Be Using Annotations</a>
+    
+    <a class="list-group-item " href="/2013/07/23/my-new-and-shiny-personal-blog.html">My New and Shiny Personal Blog!</a>
+    
+  </div>
+</section>
+
+<section class="panel panel-default clearfix">
+  <div class="panel-heading">
+      <h3 class="panel-title">GitHub Repos</h3>
+  </div>
+  <div class="list-group" id="gh_repos">
+    <p class="loading">Status updating...</p>
+  </div>
+  
+    <div class="gh-profile-link pull-right text-muted">
+      <a href="https://github.com/theUniC">@theUniC</a> on GitHub
+    </div>
+  
+  <script type="text/javascript">
+    $(document).ready(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'theUniC',
+            count: 0,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
+
+
+
+
+
+
+    
+  </aside>
+  
+</div>
+
+        </div>
+      </div>
+    </div>
+    <footer role="contentinfo"><div class="container">
+    <p class="text-muted credits">
+  Copyright &copy; 2015 - Christian Soronellas<br>
+  <small>
+      <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>,
+      <span class="credit">customized with <a href="https://github.com/kAworu/octostrap3">octostrap3</a></span>.
+  </small>
+</p>
+
+</div>
+</footer>
+    
+
+<script type="text/javascript">
+      var disqus_shortname = 'theunic';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://theunic.github.io/2014/12/29/development-environments-with-vagrant-and-docker.html';
+        var disqus_url = 'http://theunic.github.io/2014/12/29/development-environments-with-vagrant-and-docker.html';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = '//platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+<script src="/assets/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="/javascripts/modernizr-2.0.js"></script>
+
+
+  </body>
+</html>

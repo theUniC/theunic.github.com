@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
+<<<<<<< HEAD
   <title><![CDATA[Category: development | Christian Soronellas]]></title>
   <link href="http://theunic.github.io/blog/categories/development/atom.xml" rel="self"/>
   <link href="http://theunic.github.io/"/>
   <updated>2013-07-26T07:17:52+02:00</updated>
+=======
+  <title><![CDATA[Category: Development | Christian Soronellas]]></title>
+  <link href="http://theunic.github.io/blog/categories/development/atom.xml" rel="self"/>
+  <link href="http://theunic.github.io/"/>
+  <updated>2015-01-01T18:06:49+01:00</updated>
+>>>>>>> Site updated at 2015-01-01 17:13:46 UTC
   <id>http://theunic.github.io/</id>
   <author>
     <name><![CDATA[Christian Soronellas]]></name>
@@ -14,7 +21,11 @@
 
   
   <entry>
+<<<<<<< HEAD
     <title type="html"><![CDATA[Why you shoud not be using annotations]]></title>
+=======
+    <title type="html"><![CDATA[Why You Shoud Not Be Using Annotations]]></title>
+>>>>>>> Site updated at 2015-01-01 17:13:46 UTC
     <link href="http://theunic.github.io/2013/07/25/why-you-should-not-be-using-annotations.html"/>
     <updated>2013-07-25T21:03:00+02:00</updated>
     <id>http://theunic.github.io/2013/07/25/why-you-should-not-be-using-annotations</id>
