@@ -7,23 +7,16 @@ categories:
 ---
 ## Facing the problem.
 
-### Repeatable and maintainable development environments
+### Reusable and maintainable development environments
 
-One challenge we have to face when building an application is that the development environment should be an exact copy
-of the production environment. This can be easy if we only have to deal with only a single application. Or we are the
-only developer building the web application.
+A common challenge we face while building applications, is replicating the production environment in our development machine. 
 
-In that case, the easiest way to prepare the development environment is to install all the needed packages and
-dependencies into the local machine.
+This would be easier if we were the only developer in a project or we had just a one single application. In such case, the easiest way to prepare the development environment is to install all the needed packages and
+dependencies into our local machine.
 
-Otherwise if we are in a team or we are required to deal with several applications, using the local machine as
-development environment is simply not feasible, just because the different applications have different runtime
-dependencies or having every developer of the team build and prepare his own development environment is error prone and
-could lead to inconsistencies between every developer environment.
+However, within a team or dealing with multiple services and applications, replicating the same environment than production is way more difficult. Different applications have different runtime dependencies. Replicating the same configuration manually, over every single development machine could lead to inconsistencies among developers. This could be a maintainability nightmare.
 
-For this reason and in order to build development environments repeatable and maintainable across applications and team
-members, **[Vagrant](http://vagrantup.com)** takes the stage and allow the configuration of virtual machines as development
-environments easily with a custom DSL built on top of Ruby.
+In order to make this task easier and build reusable and maintainable configurations across applications and team members **[Vagrant](http://vagrantup.com)** comes to the rescue. Creating virtual machines for development environments has never been easier.
 
 ### Disclaimer
 
@@ -377,4 +370,3 @@ needs. With Docker development environments will bootstrap a lot faster once the
 
 To conclude with the entry I have created a Github repo with an example application that runs its development
 environment with Vagrant and Docker. Check it out at [https://github.com/theUniC/vagrant-docker-example](https://github.com/theUniC/vagrant-docker-example)
-
